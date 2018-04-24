@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {
+  -webkit-text-size-adjust: none;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*-----BODY -----*/
+body {
+  background-color: #282828;
+  font-family: "Cabin", sans-serif;
+}
+
+/*-----CONTAINER -----*/
+#container {
+  background-color: black;
+  /*becomes the nav background color*/
+  min-width: 320px;
+}
+
+/*-----HEADER -----*/
+#headerWrapper {
+  min-width: 320px;
+}
+
+/*-----NAVigation -----*/
+/*-----CONTENT -----*/
+#mainLogo {
+  width: 100%;
+  position: absolute;
+}
+
+#thoughts {
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: 100px;
+}
+
+#bubbles {
+  position: absolute;
+  width: 50%;
+  left: 350px;
+  top: 125px;
+}
+
+#graphs {
+  width: 50%;
+  position: absolute;
+  top: 250px;
+  left: 350px;
+}
+
+/*----- FOOTER -----*/
+footer {
+  clear: both;
+  text-align: center;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 1141px) {
+  /*-----BODY -----*/
+  /*-----WRAPPER -----*/
+  /*-----CONTAINER -----*/
+  /*-----HEADER -----*/
+  header {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  /*-----NAVigation -----*/
+  /*-----CONTENT -----*/
+  #mainLogo {
+    width: 25%;
+  }
+
+  /*----- FOOTER -----*/
+}
