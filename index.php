@@ -10,11 +10,24 @@
 
 <div class="container">
 
+	<p id="thoughts">Thoughts</p>
+
+
    <img id="mainLogo" src="/images/logo.png">
 	<img id="bubbles" src="/images/bubbles.png">
 	<img id="graphs" src="/images/graphs.png">
 
-<p id="thoughts">Thoughts</p>
+
+	<p id="events">Events</p>
+
+	<img id="eventsChart" src="/images/eventsChart.png">
+
+	<p id="gestures">Gestures</p>
+
+	<img id="gesturesImg" src="/images/gesturesImg.png">
+
+	<img id="insights" src="/images/insights.png">
+
 
 </div>
   
