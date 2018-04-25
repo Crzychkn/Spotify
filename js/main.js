@@ -12,7 +12,9 @@ var insights = document.getElementById('insights');
 
 var timeLine = new TimelineLite({paused:true, delay:1});
 
-timeLine.from(mainLogo, 1, {autoAlpha: 0, opacity: 0, left:"-200px"})
+timeLine.from(logo, 2, {autoAlpha: 0, opacity: 0})
+        .to(logo, 3, {autoAlpha: 0, opacity: 0})
+        .from(mainLogo, 1, {autoAlpha: 0, opacity: 0, left:"-200px"})
         .from(thoughts, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
         .from(freeBubble1, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.9')
         .from(freeBubble2, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')

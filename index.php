@@ -11,6 +11,7 @@
 <div class="container">
 
    <img id="mainLogo" src="/images/left_column.svg">
+   <img id="logo" src="/images/Logo.svg">
 
 	<p id="thoughts">Thoughts</p>
 

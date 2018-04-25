@@ -9,7 +9,7 @@ html {
 
 /*-----BODY -----*/
 body {
-   background-color: #282828;
+   background-color: #121212;
 	font-family: $font-body;
 	max-width: 1280px;
    margin: auto;
@@ -18,8 +18,9 @@ body {
 
 /*-----CONTAINER -----*/
 #container {
-	background-color: black;   /*becomes the nav background color*/
-	min-width: 320px;
+	background-color: #282828; 
+   min-width: 320px;
+   height: 710px;
 }
 
 /*-----HEADER -----*/
@@ -43,6 +44,12 @@ body {
    width: 24%;
 	position: absolute;
 	visibility: hidden;
+}
+
+#logo {
+   @extend #mainLogo;
+   width: 70%;
+   left: 150px;
 }
 
 #thoughts {
