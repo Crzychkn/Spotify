@@ -14,7 +14,9 @@ var timeLine = new TimelineLite({paused:true, delay:1});
 
 timeLine.from(mainLogo, 1, {autoAlpha: 0, opacity: 0, left:"-200px"})
         .from(thoughts, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
-        .from(bubbles, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
+        .from(freeBubble1, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
+        .from(freeBubble2, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.7')
+        .from(freeBubble3, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.7')
         .from(graphs, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
         .from(events, 1, {autoAlpha: 0, opacity: 0, bottom:"600px"})
         .from(eventsChart, 1, {autoAlpha: 0, opacity: 0, left:"200px"})

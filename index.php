@@ -10,11 +10,13 @@
 
 <div class="container">
 
+   <img id="mainLogo" src="/images/left_column.svg">
+
 	<p id="thoughts">Thoughts</p>
 
-
-   <img id="mainLogo" src="/images/left_column.svg">
-	<img id="bubbles" src="/images/bubbles.png">
+	<img id="freeBubble1" src="/images/Thought Bubble (free) 1.svg">
+	<img id="freeBubble2" src="/images/Thought Bubble (free) 2.svg">
+	<img id="freeBubble3" src="/images/Thought Bubble (free) 3.svg">
 	<img id="graphs" src="/images/graphs.png">
 
 
