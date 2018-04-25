@@ -53,4 +53,22 @@ timeLine.from(logo, 2, {autoAlpha: 0, opacity: 0})
 
 timeLine.play();
 
+var test = new TweenMax.from(scrollTest, 1, {autoAlpha: 0, opacity: 0});
+
+// Controller
+var controller = new ScrollMagic.Controller();
+
+var scene = new ScrollMagic.Scene({
+     offset: 100,        
+     duration: 400 
+});
+
+var scene = new ScrollMagic.Scene({
+     triggerElement: '#scrollTest', // starting scene, when reaching this element
+       duration: 400 // pin the element for a total of 400px
+})
+.setTween(test)
+.addTo(controller);
+
+              
 }

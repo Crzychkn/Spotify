@@ -59,8 +59,16 @@
 	<img id="insights" src="/images/right_column.png">
 
 </div>
+
+<div id="scrollTest">
+   <img src="/images/Logo.svg">
+</div>
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="/js/animation.gsap.min.js"></script>
 	<script src="/js/main.js"></script>
   </body>
 </html>
