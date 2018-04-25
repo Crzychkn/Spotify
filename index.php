@@ -8,12 +8,12 @@
   </head>
   <body>
 
-<div class="container">
+<div id="container" class="container">
 
    <img id="mainLogo" src="/images/left_column.svg">
    <img id="logo" src="/images/Logo.svg">
 
-	<p id="thoughts">Thoughts</p>
+	<img id="thoughts" src="/images/Thoughts Header.svg">
 
 	<img id="freeBubble1" src="/images/Thought Bubble (free) 1.svg">
 	<img id="freeBubble2" src="/images/Thought Bubble (free) 2.svg">
@@ -29,7 +29,7 @@
 	<img id="premiumBubble6" src="/images/Thought Bubble (premium) 6.svg">
 
 
-	<p id="events">Events</p>
+	<img id="events" src="/images/Events.svg">
 
 	<img id="createPlaylist" src="/images/Create Playlist.svg">
 	<img id="addSong" src="/images/Add Song.svg">
@@ -40,7 +40,7 @@
 
 	<img id="graphs" src="/images/Graphs.svg">
 
-	<p id="gestures">Gestures</p>
+	<img id="gestures" src="/images/Gestures.svg">
 
 	<img id="freeGesture1" src="/images/Gesture (free) 1.svg">
 	<img id="freeGesture2" src="/images/Gesture (free) 2.svg">
@@ -57,7 +57,6 @@
 	<img id="premiumGesture6" src="/images/Gesture (premium) 6.svg">
 
 	<img id="insights" src="/images/right_column.png">
-
 
 </div>
   

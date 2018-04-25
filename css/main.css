@@ -56,6 +56,8 @@ table {
 html {
   -webkit-text-size-adjust: none;
   overflow: hidden;
+  background-image: url("/images/Background (middle section).svg");
+  height: 100%;
 }
 
 /*----------- apply a natural box layout model to all elements --------------*/
@@ -67,19 +69,12 @@ html {
 
 /*-----BODY -----*/
 body {
-  background-color: #121212;
   font-family: "Cabin", sans-serif;
   max-width: 1280px;
   margin: auto;
 }
 
 /*-----CONTAINER -----*/
-#container {
-  background-color: #282828;
-  min-width: 320px;
-  height: 710px;
-}
-
 /*-----HEADER -----*/
 #headerWrapper {
   min-width: 320px;
@@ -91,6 +86,7 @@ body {
   margin: auto;
   max-width: 1280px;
   min-width: 1280px;
+  height: 710px;
   position: relative;
 }
 
@@ -106,173 +102,174 @@ body {
 }
 
 #thoughts {
-  color: white;
   position: absolute;
-  left: 315px;
-  top: 15px;
+  left: 320px;
+  top: 30px;
   visibility: hidden;
+  width: 640px;
 }
 
 #freeBubble1, #premiumBubble1, #freeBubble6, #premiumBubble6, #freeBubble5, #premiumBubble5, #freeBubble4, #premiumBubble4, #freeBubble3, #premiumBubble3, #freeBubble2, #premiumBubble2 {
   position: absolute;
-  width: 80px;
-  left: 335px;
-  top: 50px;
+  width: 95px;
+  left: 340px;
+  top: 70px;
   visibility: hidden;
 }
 
 #freeBubble2, #premiumBubble2 {
-  left: 440px;
+  left: 445px;
 }
 
 #freeBubble3, #premiumBubble3 {
-  left: 545px;
+  left: 550px;
 }
 
 #freeBubble4, #premiumBubble4 {
-  left: 650px;
+  left: 655px;
 }
 
 #freeBubble5, #premiumBubble5 {
-  left: 755px;
+  left: 760px;
 }
 
 #freeBubble6, #premiumBubble6 {
-  left: 860px;
+  left: 865px;
 }
 
 #premiumBubble1 {
-  top: 110px;
+  top: 130px;
 }
 
 #premiumBubble2 {
-  top: 110px;
+  top: 130px;
 }
 
 #premiumBubble3 {
-  top: 110px;
+  top: 130px;
 }
 
 #premiumBubble4 {
-  top: 110px;
+  top: 130px;
 }
 
 #premiumBubble5 {
-  top: 110px;
+  top: 130px;
 }
 
 #premiumBubble6 {
-  top: 110px;
+  top: 130px;
 }
 
 #graphs {
   width: 50%;
   position: absolute;
-  top: 165px;
-  left: 315px;
+  top: 185px;
+  left: 320px;
   visibility: hidden;
 }
 
 #events {
-  color: white;
   position: absolute;
-  left: 315px;
-  top: 395px;
+  left: 320px;
+  top: 430px;
   visibility: hidden;
+  width: 640px;
 }
 
 #createPlaylist, #sharePlaylist, #renamePlaylist, #deleteSong, #rearrangeSong, #addSong {
   width: 122px;
   position: absolute;
-  left: 315px;
-  top: 430px;
+  left: 320px;
+  top: 465px;
   visibility: hidden;
 }
 
 #addSong {
-  left: 418px;
+  left: 423px;
 }
 
 #rearrangeSong {
-  left: 523px;
+  left: 528px;
 }
 
 #deleteSong {
-  left: 624px;
+  left: 629px;
 }
 
 #renamePlaylist {
-  left: 729px;
+  left: 734px;
 }
 
 #sharePlaylist {
-  left: 832px;
+  left: 837px;
 }
 
 #gestures {
-  color: white;
   position: absolute;
-  left: 315px;
-  top: 475px;
+  left: 320px;
+  top: 510px;
   visibility: hidden;
+  width: 640px;
 }
 
 #freeGesture1, #premiumGesture1, #freeGesture6, #premiumGesture6, #freeGesture5, #premiumGesture5, #freeGesture4, #premiumGesture4, #freeGesture3, #premiumGesture3, #freeGesture2, #premiumGesture2 {
   width: 25px;
   position: absolute;
-  left: 366px;
-  top: 500px;
+  left: 371px;
+  top: 540px;
   visibility: hidden;
 }
 
 #freeGesture2, #premiumGesture2 {
-  left: 448px;
-  width: 72px;
+  left: 453px;
+  width: 80px;
 }
 
 #freeGesture3, #premiumGesture3 {
-  left: 558px;
-  width: 72px;
+  left: 563px;
+  width: 80px;
 }
 
 #freeGesture4, #premiumGesture4 {
-  left: 680px;
+  left: 685px;
 }
 
 #freeGesture5, #premiumGesture5 {
-  left: 784px;
+  left: 789px;
 }
 
 #freeGesture6, #premiumGesture6 {
-  left: 870px;
-  width: 72px;
+  left: 875px;
+  width: 80px;
 }
 
 #premiumGesture1 {
-  top: 600px;
+  top: 620px;
 }
 
 #premiumGesture2 {
-  top: 600px;
+  top: 620px;
   width: 25px;
+  left: 475px;
 }
 
 #premiumGesture3 {
-  top: 600px;
-  width: 72px;
+  top: 620px;
+  width: 80px;
 }
 
 #premiumGesture4 {
-  top: 600px;
+  top: 620px;
 }
 
 #premiumGesture5 {
-  top: 600px;
+  top: 620px;
 }
 
 #premiumGesture6 {
-  top: 600px;
-  width: 72px;
+  top: 620px;
+  width: 80px;
 }
 
 #insights {

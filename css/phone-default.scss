@@ -2,6 +2,8 @@
 html {
 	-webkit-text-size-adjust: none; 
 	overflow: hidden;
+   background-image: url('/images/Background (middle section).svg');
+   height: 100%;
 }
 
 /*----------- apply a natural box layout model to all elements --------------*/
@@ -9,7 +11,7 @@ html {
 
 /*-----BODY -----*/
 body {
-   background-color: #121212;
+   // background-color: #282828;
 	font-family: $font-body;
 	max-width: 1280px;
    margin: auto;
@@ -18,9 +20,6 @@ body {
 
 /*-----CONTAINER -----*/
 #container {
-	background-color: #282828; 
-   min-width: 320px;
-   height: 710px;
 }
 
 /*-----HEADER -----*/
@@ -37,6 +36,7 @@ body {
 	margin: auto;
 	max-width: 1280px;
 	min-width: 1280px;
+   height: 710px;
 	position: relative;
 }
 
@@ -53,200 +53,201 @@ body {
 }
 
 #thoughts {
-	color: white;
 	position: absolute;
-	left: 315px;
-	top: 15px;
+	left: 320px;
+	top: 30px;
 	visibility: hidden;
+   width: 640px;
 }
 
 #freeBubble1 {
 	position: absolute;
-	width: 80px;
-	left: 335px;
-	top: 50px;
+	width: 95px;
+	left: 340px;
+	top: 70px;
 	visibility: hidden;
 }
 
 #freeBubble2 {
 	@extend #freeBubble1;
-	left: 440px;
+	left: 445px;
 }
 
 #freeBubble3 {
 	@extend #freeBubble1;
-	left: 545px;
+	left: 550px;
 }
 
 #freeBubble4 {
 	@extend #freeBubble1;
-	left: 650px;
+	left: 655px;
 }
 
 #freeBubble5 {
 	@extend #freeBubble1;
-	left: 755px;
+	left: 760px;
 }
 
 #freeBubble6 {
 	@extend #freeBubble1;
-	left: 860px;
+	left: 865px;
 }
 
 #premiumBubble1 {
 	@extend #freeBubble1;
-   top: 110px;
+   top: 130px;
 }
 
 #premiumBubble2 {
 	@extend #freeBubble2;
-   top: 110px;
+   top: 130px;
 }
 
 #premiumBubble3 {
 	@extend #freeBubble3;
-   top: 110px;
+   top: 130px;
 }
 
 #premiumBubble4 {
 	@extend #freeBubble4;
-   top: 110px;
+   top: 130px;
 }
 
 #premiumBubble5 {
 	@extend #freeBubble5;
-   top: 110px;
+   top: 130px;
 }
 
 #premiumBubble6 {
 	@extend #freeBubble6;
-   top: 110px;
+   top: 130px;
 }
 
 #graphs {
 	width: 50%;
 	position: absolute;
-	top: 165px;
-	left: 315px;
+	top: 185px;
+	left: 320px;
 	visibility: hidden;
 }
 
 #events {
-	color: white;
 	position: absolute;
-	left: 315px;
-	top: 395px;
+	left: 320px;
+	top: 430px;
 	visibility: hidden;
+   width: 640px;
 }
 
 #createPlaylist {
 	width: 122px;
 	position: absolute;
-	left: 315px;
-	top: 430px;
+	left: 320px;
+	top: 465px;
 	visibility: hidden;
 }
 
 #addSong {
   @extend #createPlaylist;
-  left: 418px; 
+  left: 423px; 
 }
 
 #rearrangeSong {
    @extend #createPlaylist;
-   left: 523px;
+   left: 528px;
 }
 
 #deleteSong {
    @extend #createPlaylist;
-   left: 624px;
+   left: 629px;
 }
 
 #renamePlaylist {
    @extend #createPlaylist;
-   left: 729px;
+   left: 734px;
 }
 
 #sharePlaylist {
    @extend #createPlaylist;
-   left: 832px;
+   left: 837px;
 }
 
 #gestures {
-	color: white;
 	position: absolute;
-	left: 315px;
-	top: 475px;
+	left: 320px;
+	top: 510px;
 	visibility: hidden;
+   width: 640px;
 }
 
 #freeGesture1 {
 	width: 25px;
 	position: absolute;
-	left: 366px;
-	top: 500px;
+	left: 371px;
+	top: 540px;
 	visibility: hidden;
 }
 
 #freeGesture2 {
    @extend #freeGesture1;
-   left: 448px;
-   width: 72px;
+   left: 453px;
+   width: 80px;
 }
 
 #freeGesture3 {
    @extend #freeGesture1;
-   left: 558px;
-   width: 72px;
+   left: 563px;
+   width: 80px;
 }
 
 #freeGesture4 {
    @extend #freeGesture1;
-   left: 680px;
+   left: 685px;
 }
 
 #freeGesture5 {
    @extend #freeGesture1;
-   left: 784px;
+   left: 789px;
 }
 
 #freeGesture6 {
    @extend #freeGesture1;
-   left: 870px;
-   width: 72px;
+   left: 875px;
+   width: 80px;
 }
 
 #premiumGesture1 {
    @extend #freeGesture1;
-   top: 600px;
+   top: 620px;
 }
 
 #premiumGesture2 {
    @extend #freeGesture2;
-   top: 600px;
+   top: 620px;
    width: 25px;
+   left: 475px;
 }
 
 #premiumGesture3 {
    @extend #freeGesture3;
-   top: 600px;
-   width: 72px;
+   top: 620px;
+   width: 80px;
 }
 
 #premiumGesture4 {
    @extend #freeGesture4;
-   top: 600px;
+   top: 620px;
 }
 
 #premiumGesture5 {
    @extend #freeGesture5;
-   top: 600px;
+   top: 620px;
 }
 
 #premiumGesture6 {
    @extend #freeGesture6;
-   top: 600px;
-   width: 72px;
+   top: 620px;
+   width: 80px;
 }
 
 #insights {
