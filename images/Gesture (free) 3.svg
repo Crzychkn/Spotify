@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="117px" viewBox="0 0 145 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Gesture (free) 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Spotify" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Journey-Map-@2" transform="translate(-1447.000000, -1417.000000)">
+            <g id="Gesture-(free)-3" transform="translate(1448.000000, 1414.000000)">
+                <g id="Tap-(Free)-Copy-7">
+                    <text id="X-3" font-family="Cabin-Regular, Cabin" font-size="14" font-weight="normal" fill="#838383">
+                        <tspan x="24.487" y="14">X 3</tspan>
+                    </text>
+                    <g id="Group-4" transform="translate(0.000000, 18.000000)">
+                        <text id="Tap" font-family="Cabin-Regular, Cabin" font-size="20" font-weight="normal" fill="#838383">
+                            <tspan x="7.41" y="97">Tap</tspan>
+                        </text>
+                        <g id="Tap" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M18.5408965,35.8018232 C18.5408965,27.8988043 18.3418685,19.9877138 18.6292455,12.0947842 C18.7632253,8.42325525 16.6525575,7.18629607 14.1729597,7.21252848 C11.7487014,7.23674302 9.52055855,8.12864507 9.67201401,12.0968021 C10.063274,22.3385416 9.81473166,32.6065135 9.79143082,42.864396 C9.78754735,44.5533599 10.0953126,46.2917617 9.31764706,47.9090909" id="Stroke-87" stroke="#FFFFFF"></path>
+                            <path d="M37.31806,29.3636364 C42.2108585,29.420303 43.4801153,31.9445455 43.6315671,36.0575152 C43.8994334,43.3232121 44.7098137,50.5126667 42.5103714,57.7237576 C41.3281429,61.5987273 39.0563654,64.7566061 36.7529412,68" id="Stroke-161" stroke="#FFFFFF"></path>
+                            <path d="M7.99291657,33.2379761 C3.5325551,32.4238394 1.83629161,33.3780317 1.07228028,37.2693632 C-1.84125515,52.1233272 0.884246401,58.9356763 12.9411765,68" id="Stroke-179" stroke="#FFFFFF"></path>
+                            <path d="M20.1882353,22.6719504 C27.8610775,21.236234 29.4956455,22.5020126 29.5049622,29.8814297 C29.5070326,32.2842462 29.5049622,34.6880926 29.5049622,37.0909091" id="Stroke-551" stroke="#FFFFFF"></path>
+                            <path d="M36.7253959,40.6969697 C36.7253959,37.8886273 36.7966284,35.0781789 36.7099942,32.2729955 C36.5367259,26.6299857 34.8290703,25.1673732 29.5058824,25.9550148" id="Stroke-579" stroke="#FFFFFF"></path>
+                            <path d="M25.3647059,10.8181818 C23.7327294,3.48551515 20.1480471,0 14.2352941,0 C8.32254118,0 4.73785882,3.48551515 3.10588235,10.8181818" id="Stroke-663" stroke="#F0A977"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Vertical-Drag" transform="translate(74.000000, 15.000000)">
+                    <text id="Drag" font-family="Cabin-Regular, Cabin" font-size="20" font-weight="normal" fill="#838383">
+                        <tspan x="14.43" y="100">Drag</tspan>
+                    </text>
+                    <g stroke-width="2">
+                        <g id="Drag" stroke="#F0A977">
+                            <path d="M9,36.8813559 L9,53.253266" id="Stroke-727" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9,1.30879237 L9,18.2711864" id="Stroke-727" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11.769734,51.0703447 C9.92167732,56.2759868 8.07362061,56.2759868 6.22556391,51.0703447" id="Stroke-835" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11.769734,4.22301124 C9.92167732,-1.17038228 8.07362061,-1.17038228 6.22556391,4.22301124" id="Stroke-851" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <ellipse id="Oval" fill-opacity="0.5" fill="#F0A977" cx="9.07894737" cy="27.3177966" rx="9.07894737" ry="9.04661017"></ellipse>
+                        </g>
+                        <path d="M32.1129474,41.3442773 C27.1275947,36.3987676 21.9101492,31.6579138 17.2177491,26.4514679 C12.0044297,20.6689156 9.78149672,22.2662549 5.94010348,28.6832404 C15.0866217,37.7566595 24.3734271,46.9692445 33.6602325,56.1818295" id="Stroke-15" stroke="#FFFFFF" fill="#181818" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M20.9015896,48.7816587 C18.5204431,50.9314505 18.3321432,53.1876782 19.8485052,56.19001 C25.2753273,66.9294848 37.1641228,72.9805166 48.2987225,70.3828514 C48.9672368,70.2268861 49.6277808,70.0340372 50.29231,69.8580493" id="Stroke-259" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M68.7706243,52.4817441 C68.8741759,44.6750708 64.4235491,38.8848628 59.3129116,33.5059538 C56.4176507,30.45974 53.1834937,27.6837226 49.9137735,24.9957692 C46.9411104,22.5519932 43.7916774,21.6523394 41.0522669,25.4621081" id="Stroke-301" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M46.5962928,30.2812316 C44.5571109,28.4396531 42.6443582,26.4627185 40.4512181,24.7859613 C36.3453253,21.6460699 33.7953283,22.3771765 31.8122239,27.0584692" id="Stroke-587" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M41.0522669,35.8313598 C39.2635138,34.2086314 37.5455812,32.5167885 35.6720582,30.9787496 C31.3713248,27.4451539 29.0685869,27.5736482 24.4201895,31.4508692" id="Stroke-603" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="116px" viewBox="0 0 46 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Gesture (premium) 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Spotify" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Journey-Map-@2" transform="translate(-1254.000000, -1588.000000)">
+            <g id="Gesture-(premium)-2" transform="translate(1255.000000, 1584.000000)">
+                <text id="X-5" font-family="Cabin-Regular, Cabin" font-size="14" font-weight="normal" fill="#838383">
+                    <tspan x="24.487" y="14">X 5</tspan>
+                </text>
+                <g id="Group-4" transform="translate(0.000000, 18.000000)">
+                    <text id="Tap" font-family="Cabin-Regular, Cabin" font-size="20" font-weight="normal" fill="#838383">
+                        <tspan x="7.41" y="97">Tap</tspan>
+                    </text>
+                    <g id="Tap" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M18.5408965,35.8018232 C18.5408965,27.8988043 18.3418685,19.9877138 18.6292455,12.0947842 C18.7632253,8.42325525 16.6525575,7.18629607 14.1729597,7.21252848 C11.7487014,7.23674302 9.52055855,8.12864507 9.67201401,12.0968021 C10.063274,22.3385416 9.81473166,32.6065135 9.79143082,42.864396 C9.78754735,44.5533599 10.0953126,46.2917617 9.31764706,47.9090909" id="Stroke-87" stroke="#FFFFFF"></path>
+                        <path d="M37.31806,29.3636364 C42.2108585,29.420303 43.4801153,31.9445455 43.6315671,36.0575152 C43.8994334,43.3232121 44.7098137,50.5126667 42.5103714,57.7237576 C41.3281429,61.5987273 39.0563654,64.7566061 36.7529412,68" id="Stroke-161" stroke="#FFFFFF"></path>
+                        <path d="M7.99291657,33.2379761 C3.5325551,32.4238394 1.83629161,33.3780317 1.07228028,37.2693632 C-1.84125515,52.1233272 0.884246401,58.9356763 12.9411765,68" id="Stroke-179" stroke="#FFFFFF"></path>
+                        <path d="M20.1882353,22.6719504 C27.8610775,21.236234 29.4956455,22.5020126 29.5049622,29.8814297 C29.5070326,32.2842462 29.5049622,34.6880926 29.5049622,37.0909091" id="Stroke-551" stroke="#FFFFFF"></path>
+                        <path d="M36.7253959,40.6969697 C36.7253959,37.8886273 36.7966284,35.0781789 36.7099942,32.2729955 C36.5367259,26.6299857 34.8290703,25.1673732 29.5058824,25.9550148" id="Stroke-579" stroke="#FFFFFF"></path>
+                        <path d="M25.3647059,10.8181818 C23.7327294,3.48551515 20.1480471,0 14.2352941,0 C8.32254118,0 4.73785882,3.48551515 3.10588235,10.8181818" id="Stroke-663" stroke="#6C96CE"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

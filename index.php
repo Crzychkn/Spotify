@@ -26,16 +26,34 @@
 	<img id="premiumBubble4" src="/images/Thought Bubble (premium) 4.svg">
 	<img id="premiumBubble5" src="/images/Thought Bubble (premium) 5.svg">
 	<img id="premiumBubble6" src="/images/Thought Bubble (premium) 6.svg">
-	<img id="graphs" src="/images/graphs.png">
 
 
 	<p id="events">Events</p>
 
-	<img id="eventsChart" src="/images/eventsChart.png">
+	<img id="createPlaylist" src="/images/Create Playlist.svg">
+	<img id="addSong" src="/images/Add Song.svg">
+	<img id="rearrangeSong" src="/images/Rearrange Song.svg">
+	<img id="deleteSong" src="/images/Delete Song.svg">
+	<img id="renamePlaylist" src="/images/Rename Playlist.svg">
+	<img id="sharePlaylist" src="/images/Share Playlist.svg">
+
+	<img id="graphs" src="/images/Graphs.svg">
 
 	<p id="gestures">Gestures</p>
 
-	<img id="gesturesImg" src="/images/gesturesImg.png">
+	<img id="freeGesture1" src="/images/Gesture (free) 1.svg">
+	<img id="freeGesture2" src="/images/Gesture (free) 2.svg">
+	<img id="freeGesture3" src="/images/Gesture (free) 3.svg">
+	<img id="freeGesture4" src="/images/Gesture (free) 4.svg">
+	<img id="freeGesture5" src="/images/Gesture (free) 5.svg">
+	<img id="freeGesture6" src="/images/Gesture (free) 6.svg">
+
+	<img id="premiumGesture1" src="/images/Gesture (premium) 1.svg">
+	<img id="premiumGesture2" src="/images/Gesture (premium) 2.svg">
+	<img id="premiumGesture3" src="/images/Gesture (premium) 3.svg">
+	<img id="premiumGesture4" src="/images/Gesture (premium) 4.svg">
+	<img id="premiumGesture5" src="/images/Gesture (premium) 5.svg">
+	<img id="premiumGesture6" src="/images/Gesture (premium) 6.svg">
 
 	<img id="insights" src="/images/right_column.png">
 

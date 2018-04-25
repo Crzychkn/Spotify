@@ -12,6 +12,7 @@ body {
    background-color: #282828;
 	font-family: $font-body;
 	max-width: 1280px;
+   margin: auto;
 }
 
 
@@ -131,13 +132,37 @@ body {
 	visibility: hidden;
 }
 
-#eventsChart {
-	width: 49%;
-	color: white;
+#createPlaylist {
+	width: 122px;
 	position: absolute;
 	left: 315px;
-	top: 415px;
+	top: 430px;
 	visibility: hidden;
+}
+
+#addSong {
+  @extend #createPlaylist;
+  left: 418px; 
+}
+
+#rearrangeSong {
+   @extend #createPlaylist;
+   left: 523px;
+}
+
+#deleteSong {
+   @extend #createPlaylist;
+   left: 624px;
+}
+
+#renamePlaylist {
+   @extend #createPlaylist;
+   left: 729px;
+}
+
+#sharePlaylist {
+   @extend #createPlaylist;
+   left: 832px;
 }
 
 #gestures {
@@ -148,12 +173,73 @@ body {
 	visibility: hidden;
 }
 
-#gesturesImg {
-	width: 49%;
+#freeGesture1 {
+	width: 25px;
 	position: absolute;
-	left: 315px;
+	left: 366px;
 	top: 500px;
 	visibility: hidden;
+}
+
+#freeGesture2 {
+   @extend #freeGesture1;
+   left: 448px;
+   width: 72px;
+}
+
+#freeGesture3 {
+   @extend #freeGesture1;
+   left: 558px;
+   width: 72px;
+}
+
+#freeGesture4 {
+   @extend #freeGesture1;
+   left: 680px;
+}
+
+#freeGesture5 {
+   @extend #freeGesture1;
+   left: 784px;
+}
+
+#freeGesture6 {
+   @extend #freeGesture1;
+   left: 870px;
+   width: 72px;
+}
+
+#premiumGesture1 {
+   @extend #freeGesture1;
+   top: 600px;
+}
+
+#premiumGesture2 {
+   @extend #freeGesture2;
+   top: 600px;
+   width: 25px;
+}
+
+#premiumGesture3 {
+   @extend #freeGesture3;
+   top: 600px;
+   width: 72px;
+}
+
+#premiumGesture4 {
+   @extend #freeGesture4;
+   top: 600px;
+}
+
+#premiumGesture5 {
+   @extend #freeGesture5;
+   top: 600px;
+}
+
+#premiumGesture6 {
+   @extend #freeGesture6;
+   top: 600px;
+   width: 72px;
 }
 
 #insights {
