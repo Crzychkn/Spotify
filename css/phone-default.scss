@@ -54,7 +54,7 @@ body {
 
 #freeBubble1 {
 	position: absolute;
-	width: 90px;
+	width: 80px;
 	left: 335px;
 	top: 50px;
 	visibility: hidden;
@@ -62,12 +62,57 @@ body {
 
 #freeBubble2 {
 	@extend #freeBubble1;
-	left: 450px;
+	left: 440px;
 }
 
 #freeBubble3 {
 	@extend #freeBubble1;
-	left: 565px;
+	left: 545px;
+}
+
+#freeBubble4 {
+	@extend #freeBubble1;
+	left: 650px;
+}
+
+#freeBubble5 {
+	@extend #freeBubble1;
+	left: 755px;
+}
+
+#freeBubble6 {
+	@extend #freeBubble1;
+	left: 860px;
+}
+
+#premiumBubble1 {
+	@extend #freeBubble1;
+   top: 110px;
+}
+
+#premiumBubble2 {
+	@extend #freeBubble2;
+   top: 110px;
+}
+
+#premiumBubble3 {
+	@extend #freeBubble3;
+   top: 110px;
+}
+
+#premiumBubble4 {
+	@extend #freeBubble4;
+   top: 110px;
+}
+
+#premiumBubble5 {
+	@extend #freeBubble5;
+   top: 110px;
+}
+
+#premiumBubble6 {
+	@extend #freeBubble6;
+   top: 110px;
 }
 
 #graphs {

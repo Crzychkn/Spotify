@@ -17,6 +17,15 @@
 	<img id="freeBubble1" src="/images/Thought Bubble (free) 1.svg">
 	<img id="freeBubble2" src="/images/Thought Bubble (free) 2.svg">
 	<img id="freeBubble3" src="/images/Thought Bubble (free) 3.svg">
+	<img id="freeBubble4" src="/images/Thought Bubble (free) 4.svg">
+	<img id="freeBubble5" src="/images/Thought Bubble (free) 5.svg">
+	<img id="freeBubble6" src="/images/Thought Bubble (free) 6.svg">
+	<img id="premiumBubble1" src="/images/Thought Bubble (premium) 1.svg">
+	<img id="premiumBubble2" src="/images/Thought Bubble (premium) 2.svg">
+	<img id="premiumBubble3" src="/images/Thought Bubble (premium) 3.svg">
+	<img id="premiumBubble4" src="/images/Thought Bubble (premium) 4.svg">
+	<img id="premiumBubble5" src="/images/Thought Bubble (premium) 5.svg">
+	<img id="premiumBubble6" src="/images/Thought Bubble (premium) 6.svg">
 	<img id="graphs" src="/images/graphs.png">
 
 

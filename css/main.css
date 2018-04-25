@@ -107,20 +107,56 @@ body {
   visibility: hidden;
 }
 
-#freeBubble1, #freeBubble3, #freeBubble2 {
+#freeBubble1, #premiumBubble1, #freeBubble6, #premiumBubble6, #freeBubble5, #premiumBubble5, #freeBubble4, #premiumBubble4, #freeBubble3, #premiumBubble3, #freeBubble2, #premiumBubble2 {
   position: absolute;
-  width: 90px;
+  width: 80px;
   left: 335px;
   top: 50px;
   visibility: hidden;
 }
 
-#freeBubble2 {
-  left: 450px;
+#freeBubble2, #premiumBubble2 {
+  left: 440px;
 }
 
-#freeBubble3 {
-  left: 565px;
+#freeBubble3, #premiumBubble3 {
+  left: 545px;
+}
+
+#freeBubble4, #premiumBubble4 {
+  left: 650px;
+}
+
+#freeBubble5, #premiumBubble5 {
+  left: 755px;
+}
+
+#freeBubble6, #premiumBubble6 {
+  left: 860px;
+}
+
+#premiumBubble1 {
+  top: 110px;
+}
+
+#premiumBubble2 {
+  top: 110px;
+}
+
+#premiumBubble3 {
+  top: 110px;
+}
+
+#premiumBubble4 {
+  top: 110px;
+}
+
+#premiumBubble5 {
+  top: 110px;
+}
+
+#premiumBubble6 {
+  top: 110px;
 }
 
 #graphs {
