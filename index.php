@@ -13,7 +13,7 @@
 	<p id="thoughts">Thoughts</p>
 
 
-   <img id="mainLogo" src="/images/logo.png">
+   <img id="mainLogo" src="/images/left_column.svg">
 	<img id="bubbles" src="/images/bubbles.png">
 	<img id="graphs" src="/images/graphs.png">
 
@@ -26,7 +26,7 @@
 
 	<img id="gesturesImg" src="/images/gesturesImg.png">
 
-	<img id="insights" src="/images/insights.png">
+	<img id="insights" src="/images/right_column.png">
 
 
 </div>

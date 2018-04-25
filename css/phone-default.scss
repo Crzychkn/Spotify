@@ -37,6 +37,7 @@ body {
 #mainLogo {
    width: 24%;
 	position: absolute;
+	visibility: hidden;
 }
 
 #thoughts {
@@ -44,6 +45,7 @@ body {
 	position: absolute;
 	left: 315px;
 	top: 15px;
+	visibility: hidden;
 }
 
 #bubbles {
@@ -51,6 +53,7 @@ body {
 	width: 50%;
 	left: 315px;
 	top: 40px;
+	visibility: hidden;
 }
 
 #graphs {
@@ -58,6 +61,7 @@ body {
 	position: absolute;
 	top: 165px;
 	left: 315px;
+	visibility: hidden;
 }
 
 #events {
@@ -65,6 +69,7 @@ body {
 	position: absolute;
 	left: 315px;
 	top: 395px;
+	visibility: hidden;
 }
 
 #eventsChart {
@@ -73,6 +78,7 @@ body {
 	position: absolute;
 	left: 315px;
 	top: 415px;
+	visibility: hidden;
 }
 
 #gestures {
@@ -80,6 +86,7 @@ body {
 	position: absolute;
 	left: 315px;
 	top: 475px;
+	visibility: hidden;
 }
 
 #gesturesImg {
@@ -87,12 +94,14 @@ body {
 	position: absolute;
 	left: 315px;
 	top: 500px;
+	visibility: hidden;
 }
 
 #insights {
 	width: 24%;
 	position: absolute;
 	right: 0px;
+	visibility: hidden;
 }
 
 /*----- FOOTER -----*/
