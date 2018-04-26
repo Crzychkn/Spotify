@@ -57,7 +57,8 @@ html {
   -webkit-text-size-adjust: none;
   overflow-x: hidden;
   background-image: url("/images/Background (middle section).svg");
-  height: 1500px;
+  height: 1700px;
+  background-repeat-y: no-repeat;
 }
 
 /*----------- apply a natural box layout model to all elements --------------*/
@@ -99,13 +100,6 @@ body {
 #logo {
   width: 70%;
   left: 150px;
-}
-
-#scrollTest {
-  visibility: hidden;
-}
-#scrollTest img {
-  width: 30%;
 }
 
 #thoughts {
@@ -284,6 +278,24 @@ body {
   position: absolute;
   right: 0px;
   visibility: hidden;
+}
+
+#bottomBar {
+  width: 100%;
+  position: absolute;
+  top: 705px;
+  visibility: hidden;
+}
+
+/*--- Scroll Sections ---*/
+#introSection {
+  color: white;
+  text-align: center;
+  visibility: hidden;
+  margin-top: 200px;
+}
+#introSection h1 {
+  font-size: 40px;
 }
 
 /*----- FOOTER -----*/

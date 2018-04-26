@@ -58,10 +58,12 @@
 
 	<img id="insights" src="/images/right_column.png">
 
+   <img id="bottomBar" src="/images/Bottom Bar.svg">
+
 </div>
 
-<div id="scrollTest">
-   <img src="/images/Logo.svg">
+<div id="introSection">
+   <h1>Breaking Down The Journey</h1>
 </div>
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>

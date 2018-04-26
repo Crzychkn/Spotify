@@ -17,17 +17,17 @@ timeLine.from(logo, 2, {autoAlpha: 0, opacity: 0})
         .from(mainLogo, 1, {autoAlpha: 0, opacity: 0, left:"-200px"})
         .from(thoughts, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
         .from(freeBubble1, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.9')
+        .from(premiumBubble1, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=1')
         .from(freeBubble2, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
+        .from(premiumBubble2, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=1')
         .from(freeBubble3, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
+        .from(premiumBubble3, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=1')
         .from(freeBubble4, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
+        .from(premiumBubble4, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=1')
         .from(freeBubble5, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
+        .from(premiumBubble5, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=1')
         .from(freeBubble6, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
-        .from(premiumBubble1, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
-        .from(premiumBubble2, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
-        .from(premiumBubble3, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
-        .from(premiumBubble4, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
-        .from(premiumBubble5, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
-        .from(premiumBubble6, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.8')
+        .from(premiumBubble6, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=1')
         .from(graphs, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
         .from(events, 1, {autoAlpha: 0, opacity: 0, bottom:"600px"})
         .from(createPlaylist, 1, {autoAlpha: 0, opacity: 0, left:"300px"}, '-=0.9')
@@ -49,11 +49,14 @@ timeLine.from(logo, 2, {autoAlpha: 0, opacity: 0})
         .from(premiumGesture4, 1, {autoAlpha: 0, opacity: 0, bottom:"200px"}, '-=0.9')
         .from(premiumGesture5, 1, {autoAlpha: 0, opacity: 0, bottom:"200px"}, '-=0.9')
         .from(premiumGesture6, 1, {autoAlpha: 0, opacity: 0, bottom:"200px"}, '-=0.9')
-        .from(insights, 1, {autoAlpha: 0, opacity: 0, right:"-200px"}, '-=0.3');
+        .from(insights, 1, {autoAlpha: 0, opacity: 0, right:"-200px"}, '-=0.3')
+        .from(bottomBar, 1, {autoAlpha: 0, opacity: 0}, '-=0.3');
 
 timeLine.play();
 
-var test = new TweenMax.from(scrollTest, 1, {autoAlpha: 0, opacity: 0});
+//Start scroll magic
+
+var test = new TweenMax.from(introSection, 1, {autoAlpha: 0, opacity: 0});
 
 // Controller
 var controller = new ScrollMagic.Controller();
@@ -64,7 +67,7 @@ var scene = new ScrollMagic.Scene({
 });
 
 var scene = new ScrollMagic.Scene({
-     triggerElement: '#scrollTest', // starting scene, when reaching this element
+     triggerElement: '#introSection', // starting scene, when reaching this element
        duration: 400 // pin the element for a total of 400px
 })
 .setTween(test)
