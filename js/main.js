@@ -13,7 +13,9 @@ var insights = document.getElementById('insights');
 var timeLine = new TimelineLite({paused:true, delay:1});
 
 timeLine.from(logo, 2, {autoAlpha: 0, opacity: 0})
+        .from(touching, 2, {autoAlpha: 0, opacity: 0}, '-=1')
         .to(logo, 3, {autoAlpha: 0, opacity: 0})
+        .to(touching, 2, {autoAlpha: 0, opacity: 0}, '-=1')
         .from(mainLogo, 1, {autoAlpha: 0, opacity: 0, left:"-200px"})
         .from(thoughts, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
         .from(freeBubble1, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.9')
@@ -56,22 +58,31 @@ timeLine.play();
 
 //Start scroll magic
 
-var test = new TweenMax.from(introSection, 1, {autoAlpha: 0, opacity: 0});
+var timeLine2 = new TimelineLite();
+var timeLine3 = new TimelineLite();
+
+timeLine2.from(introSection, 1, {autoAlpha: 0, opacity: 0})
+         .from(introText, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine3.from(gestureIntro, 1, {autoAlpha: 0, opacity: 0})
+         .from(gestureIntroText, 1, {autoAlpha: 0, opacity: 0});
 
 // Controller
 var controller = new ScrollMagic.Controller();
 
 var scene = new ScrollMagic.Scene({
-     offset: 100,        
-     duration: 400 
-});
-
-var scene = new ScrollMagic.Scene({
      triggerElement: '#introSection', // starting scene, when reaching this element
        duration: 400 // pin the element for a total of 400px
 })
-.setTween(test)
+.setTween(timeLine2)
 .addTo(controller);
 
-              
+var scene3 = new ScrollMagic.Scene({
+   triggerElement: '#gestureIntro',
+   duration: 400
+})
+.setTween(timeLine3)
+.addTo(controller);
+
+
 }

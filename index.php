@@ -11,6 +11,7 @@
 <div id="container" class="container">
 
    <img id="mainLogo" src="/images/left_column.svg">
+   <h1 id="touching">Touching Music: Exploring Spotify Gestures</h1>
    <img id="logo" src="/images/Logo.svg">
 
 	<img id="thoughts" src="/images/Thoughts Header.svg">
@@ -65,6 +66,33 @@
 <div id="introSection">
    <h1>Breaking Down The Journey</h1>
 </div>
+
+<div id="introText">
+   <p>Spotify is the world’s largest ad-supported streaming music service. As of June 2017, there are over 140 million active listeners listening to a database of over 30 million songs across 60 countries. Mobile devices are the most common platform for listeners to access Spotify at 52% of the overall use (Spotify Media Kit 2018). With this increasing reliance on the mobile platform it is crucial that Spotify succeeds at presenting an exceptional experience for listeners.</p>
+<br>
+<p>Spotify listeners access the service from morning to night. Listeners use their mobile device, personal computer or connected device as they go through their morning routine, commute throughout the day, work, study at school, run errands, play or party on the weekends, and wind down each night. Every one of these uses presents a different scenario of environment and behavior.</p>
+<br />
+<p>With the average listener accessing the app for more than two hours each day, it is expected that they become familiar with the app and expect smooth interactions. Gestures play a large role in achieving this familiarity and effortless interactions.</p>
+<br />
+<p>With a wide variety of options, there are specific gestures in Spotify which represent customer actions. Through a careful study of use case scenarios and research, our goal as a research team was to determine if the gestures in the Spotify app are effective and provide an excellent customer experience.</p>
+</div>
+
+
+<div id="gestureIntro">
+   <h1>Gesture Study Introduction</h1>
+</div>
+
+<div id="gestureIntroText">
+<p>During our exploration of the Spotify mobile app, we determined how the app utilizes gestures.</p>
+<br>
+<p>We wanted to know if Spotify implements gestures appropriately, whether they are easily discoverable, and if these gestures truly enhance the listener’s experience. We also provided suggestions on ways Spotify can improve its implementation of gestures.</p>
+<br>
+<p>Gestures within Spotify change how the listener interacts with the application and their music. Gestures are an essential component for navigating through Spotify and accomplishing the listener’s needs. Understanding how gestures affect usage are of the utmost importance because it influences the Information Architecture of the application.</p>
+<br>
+<p>By doing this deep-dive study into gestures, we hope to be able to design better mobile applications, websites, and other digital products that take advantage of touch screens in the future.</p>
+</div>
+  
+
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>

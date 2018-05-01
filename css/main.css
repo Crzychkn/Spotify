@@ -57,7 +57,8 @@ html {
   -webkit-text-size-adjust: none;
   overflow-x: hidden;
   background-image: url("/images/Background (middle section).svg");
-  height: 1700px;
+  background-color: #181818;
+  height: 4700px;
   background-repeat-y: no-repeat;
 }
 
@@ -73,6 +74,7 @@ body {
   font-family: "Cabin", sans-serif;
   max-width: 1280px;
   margin: auto;
+  color: white;
 }
 
 /*-----CONTAINER -----*/
@@ -95,6 +97,15 @@ body {
   width: 24%;
   position: absolute;
   visibility: hidden;
+}
+
+#touching {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  font-size: 40px;
+  top: 200px;
+  left: 250px;
 }
 
 #logo {
@@ -288,14 +299,21 @@ body {
 }
 
 /*--- Scroll Sections ---*/
-#introSection {
+#introSection, #gestureIntro {
   color: white;
   text-align: center;
   visibility: hidden;
   margin-top: 200px;
 }
-#introSection h1 {
+#introSection h1, #gestureIntro h1 {
   font-size: 40px;
+}
+
+#introText, #gestureIntroText {
+  visibility: hidden;
+  margin: auto;
+  width: 60%;
+  margin-top: 100px;
 }
 
 /*----- FOOTER -----*/

@@ -3,7 +3,8 @@ html {
 	-webkit-text-size-adjust: none; 
 	overflow-x: hidden;
    background-image: url('/images/Background (middle section).svg');
-   height: 1700px;
+   background-color: #181818;
+   height: 4700px;
    background-repeat-y: no-repeat;
 }
 
@@ -16,6 +17,7 @@ body {
 	font-family: $font-body;
 	max-width: 1280px;
    margin: auto;
+   color: white;
 }
 
 
@@ -45,6 +47,15 @@ body {
    width: 24%;
 	position: absolute;
 	visibility: hidden;
+}
+
+#touching {
+   position: absolute;
+   visibility: hidden;
+   color: white;
+   font-size: 40px;
+   top: 200px;
+   left: 250px;
 }
 
 #logo {
@@ -277,6 +288,21 @@ body {
    font-size: 40px;
  } 
 
+}
+
+#introText {
+   visibility: hidden;
+   margin: auto;
+   width: 60%;
+   margin-top: 100px;
+}
+
+#gestureIntro {
+   @extend #introSection;
+}
+
+#gestureIntroText {
+   @extend #introText;
 }
 
 /*----- FOOTER -----*/
