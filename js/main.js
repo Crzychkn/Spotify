@@ -60,12 +60,35 @@ timeLine.play();
 
 var timeLine2 = new TimelineLite();
 var timeLine3 = new TimelineLite();
+var timeLine4 = new TimelineLite();
+var timeLine5 = new TimelineLite();
+var timeLine6 = new TimelineLite();
+var timeLine7 = new TimelineLite();
+var timeLine8 = new TimelineLite();
 
 timeLine2.from(introSection, 1, {autoAlpha: 0, opacity: 0})
          .from(introText, 1, {autoAlpha: 0, opacity: 0});
 
 timeLine3.from(gestureIntro, 1, {autoAlpha: 0, opacity: 0})
          .from(gestureIntroText, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine4.from(gestureProcess, 1, {autoAlpha: 0, opacity: 0})
+         .from(gestureProcessText, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine5.from(studyGoals, 1, {autoAlpha: 0, opacity: 0})
+         .from(studyGoalsText, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine6.from(conceptModel, 1, {autoAlpha: 0, opacity: 0})
+         .from(conceptModelText, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine7.from(conceptModel2, 1, {autoAlpha: 0, opacity: 0})
+         .from(conceptModelText2, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine8.from(gestureCatalog, 1, {autoAlpha: 0, opacity: 0})
+         .from(gestureCatalogText, 1, {autoAlpha: 0, opacity: 0})
+			.from(gestureCatalogImg, 1, {autoAlpha: 0, opacity: 0})
+			.from(gestureCatalogJpg, 1, {autoAlpha: 0, opacity: 0});
+
 
 // Controller
 var controller = new ScrollMagic.Controller();
@@ -82,6 +105,41 @@ var scene3 = new ScrollMagic.Scene({
    duration: 400
 })
 .setTween(timeLine3)
+.addTo(controller);
+
+var scene4 = new ScrollMagic.Scene({
+   triggerElement: '#gestureProcess',
+   duration: 400
+})
+.setTween(timeLine4)
+.addTo(controller);
+
+var scene5 = new ScrollMagic.Scene({
+   triggerElement: '#studyGoals',
+   duration: 400
+})
+.setTween(timeLine5)
+.addTo(controller);
+
+var scene6 = new ScrollMagic.Scene({
+   triggerElement: '#conceptModel',
+   duration: 400
+})
+.setTween(timeLine6)
+.addTo(controller);
+
+var scene7 = new ScrollMagic.Scene({
+   triggerElement: '#conceptModel2',
+   duration: 400
+})
+.setTween(timeLine7)
+.addTo(controller);
+
+var scene8 = new ScrollMagic.Scene({
+   triggerElement: '#gestureCatalog',
+   duration: 400
+})
+.setTween(timeLine8)
 .addTo(controller);
 
 

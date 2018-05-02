@@ -4,7 +4,7 @@ html {
 	overflow-x: hidden;
    background-image: url('/images/Background (middle section).svg');
    background-color: #181818;
-   height: 4700px;
+   height: 6700px;
    background-repeat-y: no-repeat;
 }
 
@@ -303,6 +303,63 @@ body {
 
 #gestureIntroText {
    @extend #introText;
+}
+
+#gestureProcess {
+   @extend #introSection;
+}
+
+#gestureProcessText {
+   @extend #introText;
+}  
+
+.gestureLists {
+   padding-left: 20px;
+   list-style-type: circle;
+}
+
+#studyGoals {
+	@extend #introSection;
+}
+
+#studyGoalsText {
+	@extend #introText;
+}
+
+#conceptModel {
+	@extend #introSection;
+}
+
+#conceptModelText {
+	@extend #introText;
+}
+
+#conceptModel2 {
+	@extend #introSection;
+}
+
+#conceptModelText2 {
+	@extend #introText;
+}
+
+#gestureCatalog {
+	@extend #introSection;
+}
+
+#gestureCatalogText {
+	@extend #introText;
+}
+
+#gestureCatalogImg {
+	margin-top: 20px;
+	float: left;
+	width: 50%;
+}
+
+#gestureCatalogJpg {
+	margin-top: 20px;
+	float: right;
+	width: 50%;
 }
 
 /*----- FOOTER -----*/

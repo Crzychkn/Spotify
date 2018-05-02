@@ -93,7 +93,88 @@
 </div>
   
 
+<div id="gestureProcess">
+   <h1>Gesture Study Process</h1>
+</div>
+
+<div id="gestureProcessText">
+<p>We conducted our research through a few different phases. We started by doing some discovery research through individual use, notating our findings. After becoming more familiar with the mobile app on our personal devices we discussed our findings with each other and did a group study on the provided flagship devices, the iPhone 8 and the Pixel 2.</p>
+<br>
+<p>We examined the similarities and differences between not only the devices but the operating systems as well. During this comparison we took inventory of all the gestures that Spotify uses on the platforms we tested.</p>
+<p>The next step in our research study was to run through some use cases and document our findings. We created three use cases:</p>
+<br>
+<ul class="gestureLists">
+<li>listener creates a playlist</li>
+<li>listener edits a playlist</li>
+<li>listener shares a playlist</li>
+</ul>
+<br>
+<br>
+<p>Through our process we came up with several deliverables. Although it was a team effort, each deliverable had specific people ultimately responsible for them. The list of deliverables and their owners is as follows:</p>
+<br>
+<ul class="gestureLists">
+<li>Concept Brief (Russell Andlauer)</li>
+<li>Research and Findings (Arthur Schoenfeld)</li>
+<li>Concept Model (J.J. Tenney)</li>
+<li>Gesture Catalog (Cam Sackett)</li>
+<li>Persona (J.J. Tenney)</li>
+<li>Listener Testing Summary (Arthur Schoenfeld)</li>
+<li>Journey Map (Cam Sackett & Eric Doxey)</li>
+<li>Web Presentation (Arthur Schoenfeld)</li>
+<li>Final Documentation (Russell Andlauer)</li>
+</div>
   
+<div id="studyGoals">
+   <h1>Goals of Study</h1>
+</div>
+
+<div id="studyGoalsText">
+<p>We think that gestures can help listeners efficiently perform tasks and that they should enhance their musical experience. We set out to determine whether Spotify implements gestures appropriately, whether they are easily discoverable, and if these gestures truly enhance the listener’s experience.</p>
+<br>
+<p>We predicted that gestures do enhance the experience, many gestures within Spotify are not easily discoverable, and Spotify could implement gestures better in certain places within their app.</p>
+<br>
+<p>With this study we also wanted to understand how gestures affect the usage of the application and how gestures affect listener behavior.</p>
+<br>
+<p>Throughout the study we asked several questions to guide us. How does the listener’s environment affect gesture use? Do gestures make it easier to learn how to use the app? Is the gesture experience consistent across devices and operating systems or has Spotify adapted to each platform?</p>
+<br>
+<p>Throughout our study we strove to be data-informed. This is why we placed such an emphasis on getting feedback from listeners of the app and watching them actually use Spotify.</p>
+<br>
+<p>Through this study we hope to have a better understanding of gestures and how we can better implement them in the digital products we design.</p>
+</div>
+  
+<div id="conceptModel">
+   <h1>Concept Model</h1>
+</div>
+
+<div id="conceptModelText">
+<p>We decided to make a concept model to help us narrow the scope of our gesture study and understand Spotify better. We went to the white board and started with the sentence, “People listen to music on Spotify.”</p>
+<br>
+<p>From there we started asking the questions; who, what, where, why, when, and how. We organized nouns based around each question. In this way we were able to get a good feel for the scope of Spotify.</p>
+</div>
+
+ <div id="conceptModel2">
+   <h1>Concept Model</h1>
+</div>
+
+<div id="conceptModelText2">
+<br>
+<p>From our white board concept model, J.J. Tenney created a vectorized version of it.</p>
+</div>
+ 
+<div id="gestureCatalog">
+   <h1>Gesture Catalog</h1>
+</div>
+
+<div id="gestureCatalogText">
+<p>To make our gesture catalog we first looked up both Android and iOS gestures from both the Google and Apple design guideline websites.</p>
+<br>
+<p>We then each went through Spotify trying to find as many of the gestures we could. We came together and compiled a list of gestures within Spotify for each operating system.</p>
+<br>
+<img src="images/gestureSketch1.jpg" id="gestureCatalogImg">
+<img src="images/Spotify-Gestures-@2.jpg" id="gestureCatalogJpg">
+</div>
+ 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
