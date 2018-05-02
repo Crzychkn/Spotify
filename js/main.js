@@ -124,84 +124,84 @@ var controller = new ScrollMagic.Controller();
 
 var scene = new ScrollMagic.Scene({
      triggerElement: '#introSection', // starting scene, when reaching this element
-       duration: 400 // pin the element for a total of 400px
+       duration: 200 // pin the element for a total of 400px
 })
 .setTween(timeLine2)
 .addTo(controller);
 
 var scene3 = new ScrollMagic.Scene({
    triggerElement: '#gestureIntro',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine3)
 .addTo(controller);
 
 var scene4 = new ScrollMagic.Scene({
    triggerElement: '#gestureProcess',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine4)
 .addTo(controller);
 
 var scene5 = new ScrollMagic.Scene({
    triggerElement: '#studyGoals',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine5)
 .addTo(controller);
 
 var scene6 = new ScrollMagic.Scene({
    triggerElement: '#conceptModel',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine6)
 .addTo(controller);
 
 var scene7 = new ScrollMagic.Scene({
    triggerElement: '#conceptModel2',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine7)
 .addTo(controller);
 
 var scene8 = new ScrollMagic.Scene({
    triggerElement: '#gestureCatalog',
-   duration: 600
+   duration: 500
 })
 .setTween(timeLine8)
 .addTo(controller);
 
 var scene9 = new ScrollMagic.Scene({
    triggerElement: '#persona',
-   duration: 1200
+   duration: 800
 })
 .setTween(timeLine9)
 .addTo(controller);
 
 var scene10 = new ScrollMagic.Scene({
    triggerElement: '#listenerTesting',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine10)
 .addTo(controller);
 
 var scene11 = new ScrollMagic.Scene({
    triggerElement: '#journeyMapSketch',
-   duration: 600
+   duration: 500
 })
 .setTween(timeLine11)
 .addTo(controller);
 
 var scene12 = new ScrollMagic.Scene({
    triggerElement: '#conclusion',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine12)
 .addTo(controller);
 
 var scene13 = new ScrollMagic.Scene({
    triggerElement: '#end',
-   duration: 400
+   duration: 200
 })
 .setTween(timeLine13)
 .addTo(controller);
