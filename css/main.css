@@ -58,7 +58,7 @@ html {
   overflow-x: hidden;
   background-image: url("/images/Background (middle section).svg");
   background-color: #181818;
-  height: 6700px;
+  height: 8700px;
   background-repeat-y: no-repeat;
 }
 
@@ -336,6 +336,15 @@ body {
 #persona {
   clear: both;
   padding-top: 200px;
+}
+
+#personaImg1, #personaImg2 {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+#personaImg2 {
+  margin-top: 10px;
 }
 
 /*----- FOOTER -----*/

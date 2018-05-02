@@ -183,7 +183,10 @@
 <br>
 <p>We based our target audience assessment on Spotify’s marketing packet that is available from their website. Spotify uses this packet to try and encourage content creators to bring their content to Spotify.</p>
 <br>
-<p>Knowing that the primary listener to Spotify is a young, college student, we decided to create a persona to match this demographic. J.J. Tenney created the persona on the following page.</p>
+<p>Knowing that the primary listener to Spotify is a young, college student, we decided to create personas to match this demographic.</p>
+<br>
+<img src="images/Spotify_Persona-1.png" id="personaImg1">
+<img src="images/Spotify_Persona-2.png" id="personaImg2">
 </div>
  
 

@@ -92,6 +92,8 @@ timeLine8.from(gestureCatalog, 1, {autoAlpha: 0, opacity: 0})
 
 timeLine9.from(persona, 1, {autoAlpha: 0, opacity: 0})
          .from(personaText, 1, {autoAlpha: 0, opacity: 0})
+			.from(personaImg1, 1, {autoAlpha: 0, opacity: 0})
+			.from(personaImg2, 1, {autoAlpha: 0, opacity: 0});
 
 
 
@@ -149,7 +151,7 @@ var scene8 = new ScrollMagic.Scene({
 
 var scene9 = new ScrollMagic.Scene({
    triggerElement: '#persona',
-   duration: 400
+   duration: 1200
 })
 .setTween(timeLine9)
 .addTo(controller);
