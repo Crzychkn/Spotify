@@ -210,12 +210,12 @@
 
 <figure id="gesturesDonut">
 <img src="images/gestures.png">
-<figcaption>Gestures: Aware vs not aware</figcaption>
+<figcaption>Gestures: Aware vs. Not Aware</figcaption>
 </figure>
 
 <figure id="playlistUse">
 <img src="images/playlistUse.png">
-<figcaption>Uses playlists vs not</figcaption>
+<figcaption>Using Playlists vs. Not</figcaption>
 </figure>
 
 </div>

@@ -91,9 +91,9 @@ timeLine7.from(conceptModel2, 1, {autoAlpha: 0, opacity: 0})
 
 timeLine8.from(gestureCatalog, 1, {autoAlpha: 0, opacity: 0})
          .from(gestureCatalogText, 1, {autoAlpha: 0, opacity: 0})
-			.from(gestureCatalogImg, 1, {autoAlpha: 0, opacity: 0})
-			.from(gestureCatalogJpg, 1, {autoAlpha: 0, opacity: 0})
-			.from(gestureCatalogImg2, 1, {autoAlpha: 0, opacity: 0});
+			.from(gestureCatalogImg, 1, {autoAlpha: 0, opacity: 0, x:-20})
+			.from(gestureCatalogJpg, 1, {autoAlpha: 0, opacity: 0, x:20})
+			.from(gestureCatalogImg2, 1, {autoAlpha: 0, opacity: 0, x:-20});
 
 timeLine9.from(persona, 1, {autoAlpha: 0, opacity: 0})
          .from(personaText, 1, {autoAlpha: 0, opacity: 0})
