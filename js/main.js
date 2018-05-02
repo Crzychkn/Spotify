@@ -65,6 +65,7 @@ var timeLine5 = new TimelineLite();
 var timeLine6 = new TimelineLite();
 var timeLine7 = new TimelineLite();
 var timeLine8 = new TimelineLite();
+var timeLine9 = new TimelineLite();
 
 timeLine2.from(introSection, 1, {autoAlpha: 0, opacity: 0})
          .from(introText, 1, {autoAlpha: 0, opacity: 0});
@@ -88,6 +89,10 @@ timeLine8.from(gestureCatalog, 1, {autoAlpha: 0, opacity: 0})
          .from(gestureCatalogText, 1, {autoAlpha: 0, opacity: 0})
 			.from(gestureCatalogImg, 1, {autoAlpha: 0, opacity: 0})
 			.from(gestureCatalogJpg, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine9.from(persona, 1, {autoAlpha: 0, opacity: 0})
+         .from(personaText, 1, {autoAlpha: 0, opacity: 0})
+
 
 
 // Controller
@@ -140,6 +145,13 @@ var scene8 = new ScrollMagic.Scene({
    duration: 400
 })
 .setTween(timeLine8)
+.addTo(controller);
+
+var scene9 = new ScrollMagic.Scene({
+   triggerElement: '#persona',
+   duration: 400
+})
+.setTween(timeLine9)
 .addTo(controller);
 
 

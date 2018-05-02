@@ -174,6 +174,18 @@
 <img src="images/Spotify-Gestures-@2.jpg" id="gestureCatalogJpg">
 </div>
  
+<div id="persona">
+   <h1>Persona</h1>
+</div>
+
+<div id="personaText">
+<p>We determined that our target audience is mostly college students. 72% of Spotify listeners are Millennials. Regarding the use of gestures, Millennials grew up with mobile devices and are used to touch based navigation and interfaces.</p>
+<br>
+<p>We based our target audience assessment on Spotify’s marketing packet that is available from their website. Spotify uses this packet to try and encourage content creators to bring their content to Spotify.</p>
+<br>
+<p>Knowing that the primary listener to Spotify is a young, college student, we decided to create a persona to match this demographic. J.J. Tenney created the persona on the following page.</p>
+</div>
+ 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>

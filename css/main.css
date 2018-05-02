@@ -299,17 +299,17 @@ body {
 }
 
 /*--- Scroll Sections ---*/
-#introSection, #gestureCatalog, #conceptModel2, #conceptModel, #studyGoals, #gestureProcess, #gestureIntro {
+#introSection, #persona, #gestureCatalog, #conceptModel2, #conceptModel, #studyGoals, #gestureProcess, #gestureIntro {
   color: white;
   text-align: center;
   visibility: hidden;
   margin-top: 200px;
 }
-#introSection h1, #gestureCatalog h1, #conceptModel2 h1, #conceptModel h1, #studyGoals h1, #gestureProcess h1, #gestureIntro h1 {
+#introSection h1, #persona h1, #gestureCatalog h1, #conceptModel2 h1, #conceptModel h1, #studyGoals h1, #gestureProcess h1, #gestureIntro h1 {
   font-size: 40px;
 }
 
-#introText, #gestureCatalogText, #conceptModelText2, #conceptModelText, #studyGoalsText, #gestureProcessText, #gestureIntroText {
+#introText, #personaText, #gestureCatalogText, #conceptModelText2, #conceptModelText, #studyGoalsText, #gestureProcessText, #gestureIntroText {
   visibility: hidden;
   margin: auto;
   width: 60%;
@@ -331,6 +331,11 @@ body {
   margin-top: 20px;
   float: right;
   width: 50%;
+}
+
+#persona {
+  clear: both;
+  padding-top: 200px;
 }
 
 /*----- FOOTER -----*/
