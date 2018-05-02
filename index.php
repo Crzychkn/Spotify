@@ -168,14 +168,15 @@
 <div id="gestureCatalogText">
 <p>To make our gesture catalog we first looked up both Android and iOS gestures from both the Google and Apple design guideline websites.</p>
 <br>
-<p>We then each went through Spotify trying to find as many of the gestures we could. We came together and compiled a list of gestures within Spotify for each operating system.</p>
+<p>We then each went through Spotify trying to find as many of the gestures we could. We came together and compiled a list of gestures within Spotify for each operating system. Then Camron Sackett created a vectorized version of the list with icons for each gesture.</p>
 <br>
 <img src="images/gestureSketch1.jpg" id="gestureCatalogImg">
 <img src="images/Spotify-Gestures-@2.jpg" id="gestureCatalogJpg">
+<img src="images/gestureSketch2.png" id="gestureCatalogImg2">
 </div>
  
 <div id="persona">
-   <h1>Persona</h1>
+   <h1>Personas</h1>
 </div>
 
 <div id="personaText">
@@ -183,13 +184,99 @@
 <br>
 <p>We based our target audience assessment on Spotify’s marketing packet that is available from their website. Spotify uses this packet to try and encourage content creators to bring their content to Spotify.</p>
 <br>
-<p>Knowing that the primary listener to Spotify is a young, college student, we decided to create personas to match this demographic.</p>
+<p>Knowing that the primary listener to Spotify is a young, college student, we decided to create personas to match this demographic.  J.J. Tenney created the personas.</p>
 <br>
 <img src="images/Spotify_Persona-1.png" id="personaImg1">
 <img src="images/Spotify_Persona-2.png" id="personaImg2">
 </div>
  
+<div id="listenerTesting">
+   <h1>Listener Testing Summary</h1>
+</div>
 
+<div id="listenerTestingText">
+<div id="donuts">
+<figure id="paidFree" >
+<img src="images/paidFree.png">
+<figcaption>Paid vs Free</figcaption>
+</figure>
+
+<figure id="ossplit">
+<img src="images/OSSplit.png">
+<figcaption>iOS vs Android</figcaption>
+</figure>
+
+<figure id="gesturesDonut">
+<img src="images/gestures.png">
+<figcaption>Gestures: Aware vs not aware</figcaption>
+</figure>
+
+<figure id="playlistUse">
+<img src="images/playlistUse.png">
+<figcaption>Uses playlists vs not</figcaption>
+</figure>
+
+</div>
+
+
+<p>For the listener testing, we wanted to see how gestures would affect the usage of both paid and free accounts. To get a good sense of how gestures either positively or negatively impacted the experiences of listeners, our task list asked for the creation of a playlist, using both known and unknown songs. Listeners were also asked to re-order, rename, and finally share the playlist.</p>
+<br>
+<p>Interviews were conducted on a college campus as the target audience / persona is a college aged student. Testing started out by screening for only those who actively used Spotify.</p>
+<br>
+<p>Of listeners tested, no one used Spotify on a tablet. Everyone used the phone app, with almost half also having used the desktop application. For phone operating system, Android vs. iOS split was 50%, with half of the listeners on one and half on the other.</p>
+<br>
+<p>The majority of testers were paid subscription accounts, with less than half using a free account. Use at home was the most popular environment, with car and school coming in second tied.</p>
+<br>
+<p>All listeners, except one free account, knew how to create a playlist and add songs they liked to it. Only half the listeners knew how to add a new or unknown song to the newly created playlist, as well as re-ordering, renaming, and sharing the playlist. This was across both paid and free listeners, though more paid listeners knew these actions than free listeners.</p>
+<br>
+<p>The top frustration from listeners, if there was one, many listeners did not have a frustration to give, was the ordering and renaming of playlists. Only one of the three free listeners complained about ads as a frustration. Two of the three free listeners had experienced hitting the max “6 skips per hour” limit of the account.</p>
+<br>
+<p>Half of the listeners discovered new music through external channels, either radio or friends. The other half of listeners used the discover features within the Spotify app. One of our testers utilized the “recommended songs” inside of the playlist itself to add new songs.</p>
+<br>
+<p>None of our listeners used the sharing function with friends or family to swap playlists. Only a few had more than 10 playlists, with the majority have 5 or less.</p>
+<br>
+<p>Since gestures are required to used the application on the phone, listeners were asked if they were aware of the gestures used and if they impacted positively or negatively enjoyment of Spotify. A little more than half the listeners said gestures affected their enjoyment and usage of the Spotify app, while the other listeners didn’t notice.</p>
+<br>
+<p>None of the free account listeners were aware that certain gestures were locked behind a premium subscription. This is understandable as the feature (such as the quick add) is not explicitly shown during an on-boarding process, but instead shown only if it is attempted.</p>
+</div>
+ 
+
+<div id="journeyMapSketch">
+   <h1>Journey Map</h1>
+</div>
+
+<div id="journeyMapText">
+<p>One of our most important deliverables in our gesture study was the creation of a journey map. A journey map is the path a user takes when interacting with a product. It is meant to show highlights, frustrations, and thoughts a user might encounter as they interact with a product.</p>
+<br>
+<p>Our journey map went through many iterations over the course of the study. Here is one iteration we developed on the white board. Some key things we wanted to focus on were the listener’s emotions, and specific gestures usability, and discoverability.</p>
+<br>
+<p>Our earlier iterations were very granular which helped us have a solid understanding of the specific gestures used through the journey. Our final version, on the next page, was less granular but it followed the process we used in our listener testing. Cam Sackett and Eric Doxey created the final version of the journey map.</p>
+<img src="images/JourneyMapSketch-Web.png" id="journeySketch">
+<img src="images/journeyMap-web.png" id="journeyMap">
+</div>
+ 
+<div id="conclusion">
+   <h1>Conclusion</h1>
+</div>
+
+<div id="conclusionText">
+<p>We reached some surprising conclusions through our listener testing. Our team thought that there would be a lot of gestures that the Spotify team had implemented in the app but listeners would have trouble finding. Through testing we found an opposite problem.</p>
+<br>
+<p>Listeners were expecting certain gestures for some tasks but they weren’t present. One specific instance we found is when a listener wanted to change a playlist name, they expected to be able to just tap on the name itself. They actually had to go to the menu and tap edit instead.</p>
+<br>
+<p>Another gesture listeners expected to be able to do was to drag and drop a song to rearrange the playlist. For this task the listener also had to go to the menu to make this change. We think the listener experience could be improved if listeners could long press and drag songs to reorder them in the playlist.</p>
+<br>
+<p>An additional problem we discovered relates to affordances between free and premium listeners. One premium gesture Spotify has is a swipe for a listener to quickly add a song to a playlist. Someone that we tested who has a free account tried to do this swipe and became confused as to why it didn’t work. When we asked them about it they said their friend has a premium account and they had seen them do a swipe to add a song.</p>
+<br>
+<p>They didn’t realize it was a premium gesture. Spotify could improve their experience by giving the listener a notification every time they tried to use that gesture in that manner.</p>
+<br>
+<p>Overall, Spotify does an excellent job with gesture controls. Through this study we all have a deeper appreciation for gesture controls. Most of us hadn’t thought too deeply about gestures in the apps we use because they are usually second nature. By doing this deep-dive investigation into gesture usage within Spotify, I believe we will all be better designers because of it.</p>
+</div>
+
+<div id="end">
+   <img id="endLogo" src="/images/Logo.svg">
+</div>
+ 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>

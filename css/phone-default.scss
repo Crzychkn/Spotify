@@ -4,7 +4,7 @@ html {
 	overflow-x: hidden;
    background-image: url('/images/Background (middle section).svg');
    background-color: #181818;
-   height: 8700px;
+   height: 10700px;
    background-repeat-y: no-repeat;
 }
 
@@ -315,7 +315,7 @@ body {
 
 .gestureLists {
    padding-left: 20px;
-   list-style-type: circle;
+   list-style-type: disc;
 }
 
 #studyGoals {
@@ -356,6 +356,10 @@ body {
 	width: 50%;
 }
 
+#gestureCatalogImg2 {
+	width: 50%;
+}
+
 #gestureCatalogJpg {
 	margin-top: 20px;
 	float: right;
@@ -380,6 +384,59 @@ body {
 #personaImg2 {
 	@extend #personaImg1;
 	margin-top: 10px;
+}
+
+#listenerTesting {
+	@extend #introSection;
+}
+
+#listenerTestingText {
+	@extend #introText;
+}
+
+#donuts {
+   margin-bottom: 20px;
+
+   figure {
+      width: 50%;
+      text-align: center;
+      float: left;
+      padding-bottom: 30px;
+   }
+}
+
+#journeyMapSketch {
+	@extend #introSection;
+}
+
+#journeyMapText {
+	@extend #introText;
+}
+
+#journeySketch {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#journeyMap {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#conclusion {
+   @extend #introSection;
+}
+
+#conclusionText {
+   @extend #introText;
+}
+
+#end {
+   @extend #introSection;
+}
+
+#endLogo {
+   width: 60%;
 }
 
 /*----- FOOTER -----*/

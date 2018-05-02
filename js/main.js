@@ -66,6 +66,10 @@ var timeLine6 = new TimelineLite();
 var timeLine7 = new TimelineLite();
 var timeLine8 = new TimelineLite();
 var timeLine9 = new TimelineLite();
+var timeLine10 = new TimelineLite();
+var timeLine11 = new TimelineLite();
+var timeLine12 = new TimelineLite();
+var timeLine13 = new TimelineLite();
 
 timeLine2.from(introSection, 1, {autoAlpha: 0, opacity: 0})
          .from(introText, 1, {autoAlpha: 0, opacity: 0});
@@ -88,13 +92,31 @@ timeLine7.from(conceptModel2, 1, {autoAlpha: 0, opacity: 0})
 timeLine8.from(gestureCatalog, 1, {autoAlpha: 0, opacity: 0})
          .from(gestureCatalogText, 1, {autoAlpha: 0, opacity: 0})
 			.from(gestureCatalogImg, 1, {autoAlpha: 0, opacity: 0})
-			.from(gestureCatalogJpg, 1, {autoAlpha: 0, opacity: 0});
+			.from(gestureCatalogJpg, 1, {autoAlpha: 0, opacity: 0})
+			.from(gestureCatalogImg2, 1, {autoAlpha: 0, opacity: 0});
 
 timeLine9.from(persona, 1, {autoAlpha: 0, opacity: 0})
          .from(personaText, 1, {autoAlpha: 0, opacity: 0})
 			.from(personaImg1, 1, {autoAlpha: 0, opacity: 0})
 			.from(personaImg2, 1, {autoAlpha: 0, opacity: 0});
 
+timeLine10.from(listenerTesting, 1, {autoAlpha: 0, opacity: 0})
+          .from(listenerTestingText, 1, {autoAlpha: 0, opacity: 0})
+          .from(paidFree, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:-500})
+          .from(ossplit, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:500}, '-=0.9')
+          .from(gesturesDonut, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:-500})
+          .from(playlistUse, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:500}, '-=0.9');
+
+timeLine11.from(journeyMapSketch, 1, {autoAlpha: 0, opacity: 0})
+          .from(journeyMapText, 1, {autoAlpha: 0, opacity: 0})
+			 .from(journeySketch, 1, {autoAlpha: 0, opacity: 0})
+			 .from(journeyMap, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine12.from(conclusion, 1, {autoAlpha: 0, opacity: 0})
+          .from(conclusionText, 1, {autoAlpha: 0, opacity: 0});
+
+timeLine13.from(end, 1, {autoAlpha: 0, opacity: 0})
+          .from(endLogo, 1, {autoAlpha: 0, opacity: 0});
 
 
 // Controller
@@ -144,7 +166,7 @@ var scene7 = new ScrollMagic.Scene({
 
 var scene8 = new ScrollMagic.Scene({
    triggerElement: '#gestureCatalog',
-   duration: 400
+   duration: 600
 })
 .setTween(timeLine8)
 .addTo(controller);
@@ -155,6 +177,35 @@ var scene9 = new ScrollMagic.Scene({
 })
 .setTween(timeLine9)
 .addTo(controller);
+
+var scene10 = new ScrollMagic.Scene({
+   triggerElement: '#listenerTesting',
+   duration: 400
+})
+.setTween(timeLine10)
+.addTo(controller);
+
+var scene11 = new ScrollMagic.Scene({
+   triggerElement: '#journeyMapSketch',
+   duration: 600
+})
+.setTween(timeLine11)
+.addTo(controller);
+
+var scene12 = new ScrollMagic.Scene({
+   triggerElement: '#conclusion',
+   duration: 400
+})
+.setTween(timeLine12)
+.addTo(controller);
+
+var scene13 = new ScrollMagic.Scene({
+   triggerElement: '#end',
+   duration: 400
+})
+.setTween(timeLine13)
+.addTo(controller);
+
 
 
 }

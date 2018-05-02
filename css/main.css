@@ -58,7 +58,7 @@ html {
   overflow-x: hidden;
   background-image: url("/images/Background (middle section).svg");
   background-color: #181818;
-  height: 8700px;
+  height: 10700px;
   background-repeat-y: no-repeat;
 }
 
@@ -299,17 +299,17 @@ body {
 }
 
 /*--- Scroll Sections ---*/
-#introSection, #persona, #gestureCatalog, #conceptModel2, #conceptModel, #studyGoals, #gestureProcess, #gestureIntro {
+#introSection, #end, #conclusion, #journeyMapSketch, #listenerTesting, #persona, #gestureCatalog, #conceptModel2, #conceptModel, #studyGoals, #gestureProcess, #gestureIntro {
   color: white;
   text-align: center;
   visibility: hidden;
   margin-top: 200px;
 }
-#introSection h1, #persona h1, #gestureCatalog h1, #conceptModel2 h1, #conceptModel h1, #studyGoals h1, #gestureProcess h1, #gestureIntro h1 {
+#introSection h1, #end h1, #conclusion h1, #journeyMapSketch h1, #listenerTesting h1, #persona h1, #gestureCatalog h1, #conceptModel2 h1, #conceptModel h1, #studyGoals h1, #gestureProcess h1, #gestureIntro h1 {
   font-size: 40px;
 }
 
-#introText, #personaText, #gestureCatalogText, #conceptModelText2, #conceptModelText, #studyGoalsText, #gestureProcessText, #gestureIntroText {
+#introText, #conclusionText, #journeyMapText, #listenerTestingText, #personaText, #gestureCatalogText, #conceptModelText2, #conceptModelText, #studyGoalsText, #gestureProcessText, #gestureIntroText {
   visibility: hidden;
   margin: auto;
   width: 60%;
@@ -318,12 +318,16 @@ body {
 
 .gestureLists {
   padding-left: 20px;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 #gestureCatalogImg {
   margin-top: 20px;
   float: left;
+  width: 50%;
+}
+
+#gestureCatalogImg2 {
   width: 50%;
 }
 
@@ -345,6 +349,30 @@ body {
 
 #personaImg2 {
   margin-top: 10px;
+}
+
+#donuts {
+  margin-bottom: 20px;
+}
+#donuts figure {
+  width: 50%;
+  text-align: center;
+  float: left;
+  padding-bottom: 30px;
+}
+
+#journeySketch {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#journeyMap {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#endLogo {
+  width: 60%;
 }
 
 /*----- FOOTER -----*/
