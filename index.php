@@ -150,6 +150,7 @@
 <p>We decided to make a concept model to help us narrow the scope of our gesture study and understand Spotify better. We went to the white board and started with the sentence, “People listen to music on Spotify.”</p>
 <br>
 <p>From there we started asking the questions; who, what, where, why, when, and how. We organized nouns based around each question. In this way we were able to get a good feel for the scope of Spotify.</p>
+<img id="conceptModelWhiteboard" src="images/conceptModelWhiteboard-web.jpg">
 </div>
 
  <div id="conceptModel2">
@@ -159,6 +160,7 @@
 <div id="conceptModelText2">
 <br>
 <p>From our white board concept model, J.J. Tenney created a vectorized version of it.</p>
+<img id="conceptModelVector" src="images/conceptModelVector.png">
 </div>
  
 <div id="gestureCatalog">

@@ -320,6 +320,16 @@ body {
   list-style-type: disc;
 }
 
+#conceptModelWhiteboard {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#conceptModelVector {
+  width: 100%;
+  margin-top: 20px;
+}
+
 #gestureCatalogImg {
   margin-top: 20px;
   float: left;
@@ -328,6 +338,7 @@ body {
 
 #gestureCatalogImg2 {
   width: 50%;
+  height: 425px;
 }
 
 #gestureCatalogJpg {
@@ -358,6 +369,9 @@ body {
   text-align: center;
   float: left;
   padding-bottom: 30px;
+}
+#donuts figure img {
+  width: 40%;
 }
 
 #journeySketch {

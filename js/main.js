@@ -97,8 +97,8 @@ timeLine8.from(gestureCatalog, 1, {autoAlpha: 0, opacity: 0})
 
 timeLine9.from(persona, 1, {autoAlpha: 0, opacity: 0})
          .from(personaText, 1, {autoAlpha: 0, opacity: 0})
-			.from(personaImg1, 1, {autoAlpha: 0, opacity: 0})
-			.from(personaImg2, 1, {autoAlpha: 0, opacity: 0});
+			.from(personaImg1, 1, {autoAlpha: 0, opacity: 0, x:-20})
+			.from(personaImg2, 1, {autoAlpha: 0, opacity: 0, x:20});
 
 timeLine10.from(listenerTesting, 1, {autoAlpha: 0, opacity: 0})
           .from(listenerTestingText, 1, {autoAlpha: 0, opacity: 0})
