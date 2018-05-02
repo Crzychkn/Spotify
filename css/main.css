@@ -107,6 +107,13 @@ body {
   left: 250px;
 }
 
+#created {
+  position: absolute;
+  visibility: hidden;
+  top: 260px;
+  left: 275px;
+}
+
 #logo {
   width: 70%;
   left: 150px;

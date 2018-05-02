@@ -58,6 +58,13 @@ body {
    left: 250px;
 }
 
+#created {
+   position: absolute;
+   visibility: hidden;
+   top: 260px;
+   left: 275px;
+}
+
 #logo {
    @extend #mainLogo;
    width: 70%;

@@ -12,6 +12,16 @@
 
    <img id="mainLogo" src="/images/left_column.svg">
    <h1 id="touching">Touching Music: Exploring Spotify Gestures</h1>
+<div id="created">
+   <p>Created By:</p>
+   <ul>
+      <li>Russell Andlauer</li>
+      <li>Camron Sackett</li>
+      <li>Eric Doxey</li>
+      <li>J.J. Tenney</li>
+      <li>Arthur Schoenfeld</li>
+   </ul>
+</div>
    <img id="logo" src="/images/Logo.svg">
 
 	<img id="thoughts" src="/images/Thoughts Header.svg">

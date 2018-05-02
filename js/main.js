@@ -14,8 +14,10 @@ var timeLine = new TimelineLite({paused:true, delay:1});
 
 timeLine.from(logo, 2, {autoAlpha: 0, opacity: 0})
         .from(touching, 2, {autoAlpha: 0, opacity: 0}, '-=1')
+        .from(created, 1, {autoAlpha: 0, opacity: 0, y:-20}, '-=0.1')
         .to(logo, 3, {autoAlpha: 0, opacity: 0})
         .to(touching, 2, {autoAlpha: 0, opacity: 0}, '-=1')
+        .to(created, 1, {autoAlpha: 0, opacity: 0}, '-=0.1')
         .from(mainLogo, 1, {autoAlpha: 0, opacity: 0, left:"-200px"})
         .from(thoughts, 1, {autoAlpha: 0, opacity: 0, top:"200px"})
         .from(freeBubble1, 1, {autoAlpha: 0, opacity: 0, top:"200px"}, '-=0.9')
@@ -84,10 +86,12 @@ timeLine5.from(studyGoals, 1, {autoAlpha: 0, opacity: 0})
          .from(studyGoalsText, 1, {autoAlpha: 0, opacity: 0});
 
 timeLine6.from(conceptModel, 1, {autoAlpha: 0, opacity: 0})
-         .from(conceptModelText, 1, {autoAlpha: 0, opacity: 0});
+         .from(conceptModelText, 1, {autoAlpha: 0, opacity: 0})
+         .from(conceptModelWhiteboard, 1, {autoAlpha: 0, opacity: 0, y:50});
 
 timeLine7.from(conceptModel2, 1, {autoAlpha: 0, opacity: 0})
-         .from(conceptModelText2, 1, {autoAlpha: 0, opacity: 0});
+         .from(conceptModelText2, 1, {autoAlpha: 0, opacity: 0})
+         .from(conceptModelVector, 1, {autoAlpha: 0, opacity: 0, y:50});
 
 timeLine8.from(gestureCatalog, 1, {autoAlpha: 0, opacity: 0})
          .from(gestureCatalogText, 1, {autoAlpha: 0, opacity: 0})
@@ -102,15 +106,15 @@ timeLine9.from(persona, 1, {autoAlpha: 0, opacity: 0})
 
 timeLine10.from(listenerTesting, 1, {autoAlpha: 0, opacity: 0})
           .from(listenerTestingText, 1, {autoAlpha: 0, opacity: 0})
-          .from(paidFree, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:-500})
-          .from(ossplit, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:500}, '-=0.9')
-          .from(gesturesDonut, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:-500})
-          .from(playlistUse, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:500}, '-=0.9');
+          .from(paidFree, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:-50})
+          .from(ossplit, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:50}, '-=0.9')
+          .from(gesturesDonut, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:-50})
+          .from(playlistUse, 1, {autoAlpha: 0, opacity: 0, ease: Power2.easeout, x:50}, '-=0.9');
 
 timeLine11.from(journeyMapSketch, 1, {autoAlpha: 0, opacity: 0})
           .from(journeyMapText, 1, {autoAlpha: 0, opacity: 0})
-			 .from(journeySketch, 1, {autoAlpha: 0, opacity: 0})
-			 .from(journeyMap, 1, {autoAlpha: 0, opacity: 0});
+			 .from(journeySketch, 1, {autoAlpha: 0, opacity: 0, x:-20})
+			 .from(journeyMap, 1, {autoAlpha: 0, opacity: 0, x:20});
 
 timeLine12.from(conclusion, 1, {autoAlpha: 0, opacity: 0})
           .from(conclusionText, 1, {autoAlpha: 0, opacity: 0});
