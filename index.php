@@ -71,6 +71,8 @@
 
    <img id="bottomBar" src="/images/Bottom Bar.svg">
 
+   <!-- <h1 id="scrollMsg">Scroll Down For More</h1> -->
+
 </div>
 
 <div id="introSection">

@@ -55,6 +55,8 @@ timeLine.from(logo, 2, {autoAlpha: 0, opacity: 0})
         .from(premiumGesture6, 1, {autoAlpha: 0, opacity: 0, bottom:"200px"}, '-=0.9')
         .from(insights, 1, {autoAlpha: 0, opacity: 0, right:"-200px"}, '-=0.3')
         .from(bottomBar, 1, {autoAlpha: 0, opacity: 0}, '-=0.3');
+        // .from(scrollMsg, 1, {autoAlpha: 0, opacity: 0}, '-=0.3')
+        // .to(scrollMsg, 3, {autoAlpha: 0, opacity: 0});
 
 timeLine.play();
 
