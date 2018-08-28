@@ -321,6 +321,9 @@ body {
   width: 60%;
   margin-top: 100px;
 }
+#introText p, #conclusionText p, #journeyMapText p, #listenerTestingText p, #personaText p, #gestureCatalogText p, #conceptModelText2 p, #conceptModelText p, #studyGoalsText p, #gestureProcessText p, #gestureIntroText p {
+  line-height: 26px;
+}
 
 .gestureLists {
   padding-left: 20px;
