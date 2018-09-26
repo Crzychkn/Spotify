@@ -1,7 +1,7 @@
 /*-----Prevents iPhone from resizing in landscape mode -----*/
 html {
-	-webkit-text-size-adjust: none; 
-	overflow-x: hidden;
+   -webkit-text-size-adjust: none; 
+   overflow-x: hidden;
    // background-image: url('/images/Background (middle section).svg');
    background-color: #181818;
    height: 10700px;
@@ -14,8 +14,8 @@ html {
 /*-----BODY -----*/
 body {
    // background-color: #282828;
-	font-family: $font-body;
-	max-width: 1280px;
+   font-family: $font-body;
+   max-width: 1280px;
    margin: auto;
    color: white;
 }
@@ -27,7 +27,7 @@ body {
 
 /*-----HEADER -----*/
 #headerWrapper {
-	min-width: 320px;
+   min-width: 320px;
 }
 /*-----NAVigation -----*/
 
@@ -36,17 +36,17 @@ body {
 /*-----CONTENT -----*/
 
 .container {
-	margin: auto;
-	max-width: 1280px;
-	min-width: 1280px;
+   margin: auto;
+   max-width: 1280px;
+   min-width: 1280px;
    height: 710px;
-	position: relative;
+   position: relative;
 }
 
 #mainLogo {
    width: 24%;
-	position: absolute;
-	visibility: hidden;
+   position: absolute;
+   visibility: hidden;
 }
 
 #touching {
@@ -63,6 +63,10 @@ body {
    visibility: hidden;
    top: 260px;
    left: 275px;
+
+   li {
+      padding-top: 9px;
+   }
 }
 
 #logo {
@@ -72,103 +76,103 @@ body {
 }
 
 #thoughts {
-	position: absolute;
-	left: 320px;
-	top: 30px;
-	visibility: hidden;
+   position: absolute;
+   left: 320px;
+   top: 30px;
+   visibility: hidden;
    width: 640px;
 }
 
 #freeBubble1 {
-	position: absolute;
-	width: 95px;
-	left: 340px;
-	top: 70px;
-	visibility: hidden;
+   position: absolute;
+   width: 95px;
+   left: 340px;
+   top: 70px;
+   visibility: hidden;
 }
 
 #freeBubble2 {
-	@extend #freeBubble1;
-	left: 445px;
+   @extend #freeBubble1;
+   left: 445px;
 }
 
 #freeBubble3 {
-	@extend #freeBubble1;
-	left: 550px;
+   @extend #freeBubble1;
+   left: 550px;
 }
 
 #freeBubble4 {
-	@extend #freeBubble1;
-	left: 655px;
+   @extend #freeBubble1;
+   left: 655px;
 }
 
 #freeBubble5 {
-	@extend #freeBubble1;
-	left: 760px;
+   @extend #freeBubble1;
+   left: 760px;
 }
 
 #freeBubble6 {
-	@extend #freeBubble1;
-	left: 865px;
+   @extend #freeBubble1;
+   left: 865px;
 }
 
 #premiumBubble1 {
-	@extend #freeBubble1;
+   @extend #freeBubble1;
    top: 130px;
 }
 
 #premiumBubble2 {
-	@extend #freeBubble2;
+   @extend #freeBubble2;
    top: 130px;
 }
 
 #premiumBubble3 {
-	@extend #freeBubble3;
+   @extend #freeBubble3;
    top: 130px;
 }
 
 #premiumBubble4 {
-	@extend #freeBubble4;
+   @extend #freeBubble4;
    top: 130px;
 }
 
 #premiumBubble5 {
-	@extend #freeBubble5;
+   @extend #freeBubble5;
    top: 130px;
 }
 
 #premiumBubble6 {
-	@extend #freeBubble6;
+   @extend #freeBubble6;
    top: 130px;
 }
 
 #graphs {
-	width: 50%;
-	position: absolute;
-	top: 185px;
-	left: 320px;
-	visibility: hidden;
+   width: 50%;
+   position: absolute;
+   top: 185px;
+   left: 320px;
+   visibility: hidden;
 }
 
 #events {
-	position: absolute;
-	left: 320px;
-	top: 430px;
-	visibility: hidden;
+   position: absolute;
+   left: 320px;
+   top: 430px;
+   visibility: hidden;
    width: 640px;
 }
 
 #createPlaylist {
-	width: 122px;
-	position: absolute;
-	left: 320px;
-	top: 465px;
-	visibility: hidden;
+   width: 122px;
+   position: absolute;
+   left: 320px;
+   top: 465px;
+   visibility: hidden;
 }
 
 #addSong {
-  @extend #createPlaylist;
-  left: 423px; 
+   @extend #createPlaylist;
+   left: 423px; 
 }
 
 #rearrangeSong {
@@ -192,19 +196,19 @@ body {
 }
 
 #gestures {
-	position: absolute;
-	left: 320px;
-	top: 510px;
-	visibility: hidden;
+   position: absolute;
+   left: 320px;
+   top: 510px;
+   visibility: hidden;
    width: 640px;
 }
 
 #freeGesture1 {
-	width: 25px;
-	position: absolute;
-	left: 371px;
-	top: 540px;
-	visibility: hidden;
+   width: 25px;
+   position: absolute;
+   left: 371px;
+   top: 540px;
+   visibility: hidden;
 }
 
 #freeGesture2 {
@@ -270,10 +274,10 @@ body {
 }
 
 #insights {
-	width: 24%;
-	position: absolute;
-	right: 0px;
-	visibility: hidden;
+   width: 24%;
+   position: absolute;
+   right: 0px;
+   visibility: hidden;
 }
 
 #bottomBar {
@@ -293,14 +297,14 @@ body {
 //
 /*--- Scroll Sections ---*/
 #introSection {
-  color: white;
-  text-align: center;
-  visibility: hidden;
-  margin-top: 200px;
+   color: white;
+   text-align: center;
+   visibility: hidden;
+   margin-top: 200px;
 
- h1 {
-   font-size: 40px;
- } 
+   h1 {
+      font-size: 40px;
+   } 
 
 }
 
@@ -334,22 +338,26 @@ body {
 .gestureLists {
    padding-left: 20px;
    list-style-type: disc;
+
+   li {
+      padding-bottom: 13px;
+   }
 }
 
 #studyGoals {
-	@extend #introSection;
+   @extend #introSection;
 }
 
 #studyGoalsText {
-	@extend #introText;
+   @extend #introText;
 }
 
 #conceptModel {
-	@extend #introSection;
+   @extend #introSection;
 }
 
 #conceptModelText {
-	@extend #introText;
+   @extend #introText;
 }
 
 #conceptModelWhiteboard {
@@ -358,11 +366,11 @@ body {
 }
 
 #conceptModel2 {
-	@extend #introSection;
+   @extend #introSection;
 }
 
 #conceptModelText2 {
-	@extend #introText;
+   @extend #introText;
 }
 
 #conceptModelVector {
@@ -371,56 +379,56 @@ body {
 }
 
 #gestureCatalog {
-	@extend #introSection;
+   @extend #introSection;
 }
 
 #gestureCatalogText {
-	@extend #introText;
+   @extend #introText;
 }
 
 #gestureCatalogImg {
-	margin-top: 20px;
-	float: left;
-	width: 50%;
+   margin-top: 20px;
+   float: left;
+   width: 50%;
 }
 
 #gestureCatalogImg2 {
-	width: 50%;
+   width: 50%;
    height: 425px;
 }
 
 #gestureCatalogJpg {
-	margin-top: 20px;
-	float: right;
-	width: 50%;
+   margin-top: 20px;
+   float: right;
+   width: 50%;
 }
 
 #persona {
-	@extend #introSection;
-	clear: both;
-	padding-top: 200px;
+   @extend #introSection;
+   clear: both;
+   padding-top: 200px;
 }
 
 #personaText {
-	@extend #introText;
+   @extend #introText;
 }
 
 #personaImg1 {
-	width: 100%;
-	border: 1px solid #000;
+   width: 100%;
+   border: 1px solid #000;
 }
 
 #personaImg2 {
-	@extend #personaImg1;
-	margin-top: 10px;
+   @extend #personaImg1;
+   margin-top: 10px;
 }
 
 #listenerTesting {
-	@extend #introSection;
+   @extend #introSection;
 }
 
 #listenerTestingText {
-	@extend #introText;
+   @extend #introText;
 }
 
 #donuts {
@@ -439,21 +447,21 @@ body {
 }
 
 #journeyMapSketch {
-	@extend #introSection;
+   @extend #introSection;
 }
 
 #journeyMapText {
-	@extend #introText;
+   @extend #introText;
 }
 
 #journeySketch {
-	width: 100%;
-	margin-top: 20px;
+   width: 100%;
+   margin-top: 20px;
 }
 
 #journeyMap {
-	width: 100%;
-	margin-top: 20px;
+   width: 100%;
+   margin-top: 20px;
 }
 
 #conclusion {
@@ -475,8 +483,8 @@ body {
 /*----- FOOTER -----*/
 
 footer {
-	clear: both;
-	text-align: center;
-	padding: .5em + .5em;
+   clear: both;
+   text-align: center;
+   padding: .5em + .5em;
 }
 

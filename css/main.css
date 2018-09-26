@@ -113,6 +113,9 @@ body {
   top: 260px;
   left: 275px;
 }
+#created li {
+  padding-top: 9px;
+}
 
 #logo {
   width: 70%;
@@ -329,6 +332,9 @@ body {
   padding-left: 20px;
   list-style-type: disc;
 }
+.gestureLists li {
+  padding-bottom: 13px;
+}
 
 #conceptModelWhiteboard {
   width: 100%;
@@ -419,3 +425,5 @@ footer {
   /*-----CONTENT -----*/
   /*----- FOOTER -----*/
 }
+
+/*# sourceMappingURL=main.css.map */
